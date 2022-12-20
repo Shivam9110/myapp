@@ -5,7 +5,7 @@ const CrudOperation = () => {
   const [items, setItems] = useState([]);
   const [toggleSubmit, setToggleSubmit] = useState(true);
   const [editItem, setEditItem] = useState(null);
-  // console.log(data)
+  // console.log(datas)
   const addItem = () => {
     if (!data) {
       alert("please fill the data");
